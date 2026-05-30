@@ -1,0 +1,21 @@
+Theme: Hyper-Dimensional Cosmic Glassmorphism (Spectacular +10)
+Style: Ultra-modern, Glassmorphism, Futuristic, immersive
+Mood: Ethereal, Vast, Mysterious, High-Tech
+
+Design Requirements:
+- Background: Deep cosmic void (#010204) with animated nebula gradients (Deep Blue, Magenta, Cyan).
+- Surfaces: High-blur glassmorphism cards (backdrop-blur-3xl) with thin, glowing borders.
+- Typography: Futuristic Sans-serif (Orbitron or Rajdhani) for headings, clean sans-serif for body.
+- Color Palette:
+  - Primary: Cyan Glow (#00f5ff)
+  - Accent: Magenta Pulse (#ff00ea)
+  - Text: Ethereal White (#f0f9ff)
+  - Muted: Nebula Dust (#3d4b5a)
+- Layout: Asymmetric, bento-grid inspired, mobile-first responsive.
+- Interactive: Hover effects that trigger "light streaks" or "glow pulses".
+- Components: 
+  - Hero with massive depth and floating elements.
+  - Stats or features in glowing glass tiles.
+  - Floating action buttons with neon shadows.
+
+Goal: Create a UI that feels like a high-end interface from a sci-fi masterpiece, fully utilizing Tailwind 4's advanced capabilities.

@@ -1,0 +1,41 @@
+/* App specific styles */
+
+.nebula {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.nebula-1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 245, 255, 0.15) 0%, transparent 70%);
+  top: -100px;
+  right: -100px;
+  animation: nebula-drift 25s infinite alternate;
+}
+
+.nebula-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 0, 234, 0.1) 0%, transparent 70%);
+  bottom: -100px;
+  left: -100px;
+  animation: nebula-drift 30s infinite alternate-reverse;
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(0, 245, 255, 0.5);
+}
+
+.button-glow {
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button-glow:hover {
+  box-shadow: 0 0 30px rgba(0, 245, 255, 0.6);
+  transform: translateY(-2px);
+}
